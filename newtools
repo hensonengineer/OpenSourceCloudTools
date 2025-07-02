@@ -1,0 +1,22 @@
+#more useful tools
+
+#Search and explore public cloud images, their lineage, and their filesystems.
+https://investigator.cloud/
+
+#An IAM Simulator that outputs detailed explanations of how a request was evaluated.
+https://github.com/cloud-copilot/iam-simulate
+
+#Get every possible policy in any set of AWS accounts. 
+#This is built to run out of the box in simple use cases, 
+#and also work in terribly oppressive environments with a little more configuration. 
+#If you want to analyze IAM data at scale this is what you've been looking for.
+https://github.com/cloud-copilot/iam-collect
+
+#Get visibility into the IAM permissions in your AWS organizations and accounts. 
+Use your actual AWS IAM policies (downloaded via iam-collect) and evaluate the effective permissions.
+https://github.com/cloud-copilot/iam-lens
+
+# yams is a Go library, server, and CLI providing foundational capabilities to simulate access for AWS IAM policies.
+#It was designed for accuracy, security, and speed to meet the needs of cloud security teams working in environments both large and complex.
+https://nsiow.github.io/yams/
+
